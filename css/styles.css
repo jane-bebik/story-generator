@@ -1,0 +1,58 @@
+/* Soft Pastel Color Palette */
+:root {
+    --primary-bg: #EAE7DC;
+    --secondary-bg: #D5CBB2;
+    --primary-txt: #556052;
+    --secondary-txt: #857C8D;
+    --highlight: #D8A488;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-bg);
+    color: var(--primary-txt);
+    padding: 2em;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2em;
+    background-color: var(--secondary-bg);
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.content {
+    background-color: var(--secondary-bg);
+    border-radius: 8px;
+    padding: 2em;
+}
+
+.input-group, .btn-container {
+    margin-bottom: 1em;
+}
+
+.radio-group label {
+    margin-right: 1em;
+}
+
+button.randomize {
+    background-color: var(--highlight);
+    color: var(--secondary-bg);
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.randomize:hover {
+    background-color: var(--secondary-txt);
+}
+
+.story {
+    margin-top: 2em;
+    padding: 1em;
+    background-color: var(--primary-bg);
+    border-radius: 8px;
+}
